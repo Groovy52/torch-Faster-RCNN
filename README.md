@@ -29,15 +29,14 @@ This dataset contains images of playing cards.
 
 The cards_dataset containds train folder, valication folder, train.csv and validation.csv
 ```bash
-cards_datset/
- train/
-   [xxx].jpg
-   ...
- validation/
-   [xxx].jpg
+image_id	class_name	class_id	rad_id	x_min	y_min	x_max	y_max	area
+50a418190bc3fb1ef1633bf9678929b3	No finding	1	R11	0	0	1	1	1
+9a5094b2563a1ef3ff50dc5c7ff71345	Cardiomegaly	5	R10	691	1375	1653	1831	438672
+
    ...
  train.csv
  validation.csv
+ sample_submission.csv (=test.csv)
 ```
 
 ## 4. Train
@@ -54,12 +53,6 @@ predict.py
 ```
 ## 6. Predicted Images
 Here are some sample output images predicted by saved_model/model
-
-![img](images/image1.jpg)
-
-![img](images/image2.jpg)
-
-![img](images/image3.jpg)
 
 <!-- ======= -->
 # torch-Faster-RCNN
