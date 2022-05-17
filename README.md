@@ -1,3 +1,4 @@
+<!-- <<<<<<< HEAD -->
 # Training Faster-RCNN on multiclass custom dataset
 ## 1. Introduction
 
@@ -60,3 +61,6 @@ Here are some sample output images predicted by saved_model/model
 
 ![img](images/image3.jpg)
 
+<!-- ======= -->
+# torch-Faster-RCNN
+<!-- >>>>>>> 9236357ed7c798752ce4c742128f9a0bdac0ae0e -->
