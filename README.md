@@ -19,9 +19,9 @@ This framework has the follow features:
   - Opencv (cv2)
 
 ### 2.2 Code-Preparing
-```bash
+<!-- ```bash
 git clone https://github.com/harshatejas/pytorch_custom_object_detection.git
-```
+``` -->
 
 ## 3. Dataset
 This dataset contains images of playing cards.
